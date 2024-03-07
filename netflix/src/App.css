@@ -159,22 +159,22 @@ a{
     cursor: pointer;
 }
 .card_latest {
-  transition: all 0.3s linear;
+  transition: all 0.3s ease-in-out;
   transform: translateZ(0);
 }
 .card_latest:hover {
   transform: scale(1.25);
 }
-/* .card_latest:hover button.slick-arrow.slick-next{
+.card_latest:hover button.slick-arrow.slick-next{
     display: block!important;
-} */
+} 
 /* button.slick-arrow.slick-next{
     display: none!important;
-} */
+}
 
 button.slick-arrow.slick-prev.slick-disabled {
   display: none !important;
-}
+} */
 
 .slider button {
   visibility: hidden !important;
@@ -208,16 +208,16 @@ button.slick-arrow.slick-prev.slick-disabled {
 }
 
 .card {
-  width: 8rem;
+  width: 10rem;
   height: 12rem !important;
   border: none !important;
 }
 
-.card:hover {
+/* .card:hover {
     transition: 0.3s all ease-out;
     transform: scale(1.30, 1.30);
    
-  }
+  } */
 .btn-close {
   background: none !important;
   outline: none !important;
@@ -259,7 +259,7 @@ nav.mb-3.navbar.navbar-expand-sm.navbar-dark.bg-dark {
   background-color: #fff;
 }
 .search_list {
-  /* width: 17%; */
+   width: 17%; 
 }
 .search_movie {
   width: 100% !important;
