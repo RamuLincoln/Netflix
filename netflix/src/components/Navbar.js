@@ -10,7 +10,7 @@ function Navbars() {
       <>
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand href="/">Netflix</Navbar.Brand>
+            <Navbar.Brand href="/">Playflix</Navbar.Brand>
               <Nav className="me-auto">
                 <Link className='nav-link' to='/'>Movie</Link>
                 <Link className='nav-link' to='/movie/:id'>video</Link> 
